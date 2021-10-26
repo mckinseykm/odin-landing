@@ -19,17 +19,14 @@
     align-self: center;
 }
 
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
 .header-links {
     display: flex;
     color: #E5E7EB;
     font-size: 18px;
     gap: 16px;
     align-self: center;
+    text-decoration: none;
+    color: inherit;
 }
 
 .sub-header{
@@ -152,15 +149,16 @@ a {
 }
 
 .button2 {
-    width: 120px;
+    display: flex;
+    width: 160px;
     height: 32px;
-    align-self: center;
     background-color: #3882F6;
     border: solid;
     border-color: #E5E7EB;
     color: #E5E7EB;
     border-radius: 8px;
     border-width: 2px;
+    justify-content: center;
 }
 
 .footer {
